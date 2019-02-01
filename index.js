@@ -32,6 +32,7 @@ var app1 = new Vue({
             "masterwork": { difficulty: "ds", costMod: 1.00 },
         }
         const price = parseFloat(this.price)
+        this.difficulty = this.difficulty.toLowerCase()
         var totalDifficulty = this.difficulty
         var totalPrice = price
         this.improvements.forEach(function (improvement) {
