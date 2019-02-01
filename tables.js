@@ -266,5 +266,241 @@ tables = {
         }
       ]
     }
+  ],
+  lightsaber: [
+    {
+      symbols: "ADV", type: "simple", effects: [
+        {
+          name: "Lightweight",
+          value: ""
+        },
+        {
+          name: "Two-Handed",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV", type: "simple", effects: [
+        {
+          name: "Disguised",
+          value: ""
+        },
+        {
+          name: "Counterweight",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+        {
+          name: "Crossguard",
+          value: ""
+        },
+        {
+          name: "Customizable",
+          value: ""
+        },
+        {
+          name: "Delicate Balance",
+          value: ""
+        },
+        {
+          name: "Personalized Design",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+        {
+          name: "Inbuilt",
+          value: ""
+        },
+        {
+          name: "Energy Bleed",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "TRI TRI", type: "masterwork", effects: [
+        {
+          name: "Fine-Tuned Emitter",
+          value: ""
+        },
+        {
+          name: "Personalized Inlay",
+          value: ""
+        },
+        {
+          name: "Integral Attachment",
+          value: ""
+        }
+      ]
+    }
+  ],
+  armor: [
+    {
+      symbols: "ADV", type: "simple", effects: [
+        {
+          name: "Lightweight",
+          value: ""
+        },
+        {
+          name: "Sealable",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV", type: "simple", effects: [
+        {
+          name: "Extra Melee Defense",
+          value: ""
+        },
+        {
+          name: "Special Embellishment",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+        {
+          name: "Extra Ranged Defense",
+          value: ""
+        },
+        {
+          name: "Extra Hard Point",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+        {
+          name: "Extra Soak",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "TRI TRI", type: "masterwork", effects: [
+        {
+          name: "Integral Attachment",
+          value: ""
+        }
+      ]
+    }
+  ],
+  chassis: [
+    {
+      symbols: "ADV", type: "simple", effects: [
+        {
+          name: "Reinforced Chassis",
+          value: ""
+        },
+        {
+          name: "Unobstrusive",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV", type: "simple", effects: [
+        {
+          name: "Deflective Carapace",
+          value: ""
+        },
+        {
+          name: "Narrow Profile",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+        {
+          name: "Armor Plating",
+          value: ""
+        },
+        {
+          name: "Unusual Size (Larger)",
+          value: ""
+        }
+        ,
+        {
+          name: "Unusual Size (Smaller)",
+          value: ""
+        }
+        ,
+        {
+          name: "Modular Hardware",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+        {
+          name: "Superior Hardware",
+          value: ""
+        }
+      ]
+    }
+  ],
+  programming: [
+    {
+      symbols: "ADV", type: "simple", effects: [
+        {
+          name: "Random Positive Quirk",
+          value: ""
+        },
+        {
+          name: "Archival Functions",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV", type: "simple", effects: [
+        {
+          name: "Adaptive Programming",
+          value: ""
+        },
+        {
+          name: "Broad Utility",
+          value: ""
+        },
+        {
+          name: "Positive Quirk",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+        {
+          name: "Defensive Programming",
+          value: ""
+        },
+        {
+          name: "Behavioral Optimization",
+          value: ""
+        }
+        ,
+        {
+          name: "Unusual Size (Smaller)",
+          value: ""
+        }
+        ,
+        {
+          name: "Modular Hardware",
+          value: ""
+        }
+      ]
+    }
   ]
 }
