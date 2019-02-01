@@ -5,3 +5,13 @@
 li {
   list-style-type: none;
 }
+
+.divider {
+  margin: 1.5rem 0 !important
+}
+
+.improvementsPlaceholder {
+  opacity: 0.25;
+  text-align: center
+}
+
