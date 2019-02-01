@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
@@ -27,7 +28,7 @@
                     </select>
                 </div>
                 <div class="divider text-center" data-content="Improvements"></div>
-                <h4 v-if="improvements" class="improvementsPlaceholder">No Improvements Selected</h1>
+                <h4 v-if="improvements.length == 0" class="improvementsPlaceholder">No Improvements Selected</h1>
                 <ul>
                     <li v-for="(improvement, index) in improvements">
                         <button class="btn btn-action s-circle btn-sm btn-error" v-on:click="removeImprovement(index)">-</button>
@@ -38,7 +39,8 @@
                 </ul>
                 <div class="divider text-center" data-content="Totals"></div>
                 <p>Total Price: {{totalPrice}}</p>
-                <p>Dice Code: <code>{{totalDifficulty}}</code></p>
+                <p>Dice Code: <code class="main" id="main">{{totalDifficulty}}</code><button class="btn" v-bind:data-clipboard-text="totalDifficulty">Copy code to clipboard</button></p>
+                
             </div>
             <div class="column col-xs-12 col-lg-4">
                 <table class="table">

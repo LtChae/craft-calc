@@ -325,7 +325,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "TRI", type: "advanced", effects: [
         {
           name: "Fine-Tuned Emitter",
           value: ""
@@ -333,7 +333,11 @@ tables = {
         {
           name: "Personalized Inlay",
           value: ""
-        },
+        }
+      ]
+    },
+    {
+      symbols: "TRI TRI", type: "masterwork", effects: [
         {
           name: "Integral Attachment",
           value: ""
