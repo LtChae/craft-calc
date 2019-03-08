@@ -529,19 +529,11 @@ tables = {
         {
           name: "Long-lasting",
           value: ""
-        },
-        {
-          name: "Careful Measuring",
-          value: ""
         }
       ]
     },
     {
       symbols: "ADV ADV ADV", type: "intermediate", effects: [
-        {
-          name: "Large Batch",
-          value: ""
-        },
         {
           name: "Extra Potency",
           value: ""
