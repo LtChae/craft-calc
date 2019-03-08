@@ -506,5 +506,117 @@ tables = {
         }
       ]
     }
+  ],
+  potion: [
+    {
+      symbols: "ADV", type: "simple", effects: [
+        {
+          name: "Fortifying",
+          value: ""
+        },
+        {
+          name: "Reviving",
+          value: ""
+        },
+        {
+          name: "Draining",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV", type: "simple", effects: [
+        {
+          name: "Long-lasting",
+          value: ""
+        },
+        {
+          name: "Careful Measuring",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+        {
+          name: "Large Batch",
+          value: ""
+        },
+        {
+          name: "Extra Potency",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+        {
+          name: "Virulent",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "TRI TRI", type: "masterwork", effects: [
+        {
+          name: "Empowered",
+          value: ""
+        }
+      ]
+    }
+  ],
+  talisman: [
+    {
+      symbols: "ADV", type: "simple", effects: [
+        {
+          name: "Draining",
+          value: ""
+        },
+        {
+          name: "Hidden Purpose",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV", type: "simple", effects: [
+        {
+          name: "Growing Power",
+          value: ""
+        },
+        {
+          name: "Invigorating",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+        {
+          name: "Additional Power",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+        {
+          name: "Redirect Energy",
+          value: ""
+        }
+      ]
+    },
+    {
+      symbols: "TRI TRI", type: "masterwork", effects: [
+        {
+          name: "Empowered",
+          value: ""
+        },
+        {
+          name: "Mighty",
+          value: ""
+        }
+      ]
+    }
   ]
 }
