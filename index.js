@@ -4,15 +4,20 @@ Vue.component('todo-item', {
     template: '<li>{{ todo.text }}</li>'
 })
 const initTable = "ranged"
+const diceCodes = {
+    "setback": "s",
+    "difficulty": "p",
+    "challenge": "r",
+}
 var app1 = new Vue({
     el: '#craft-app',
     data: {
         price: 0.0,
         difficulty: "",
-        table:initTable,
+        table: initTable,
         rows: tables[initTable],
-        tableNames:Object.keys(tables),
-        tables:tables,
+        tableNames: Object.keys(tables),
+        tables: tables,
         improvements: [],
         totalPrice: 0,
         totalDifficulty: ""
@@ -27,10 +32,10 @@ var app1 = new Vue({
     },
     beforeUpdate: function () {
         var typeMap = {
-            "simple": { difficulty: "s", costMod: 0.25 },
-            "intermediate": { difficulty: "ss", costMod: 0.25 },
-            "advanced": { difficulty: "d", costMod: 0.25 },
-            "masterwork": { difficulty: "ds", costMod: 1.00 },
+            "simple": { difficulty: diceCodes["setback"], costMod: 0.25 },
+            "intermediate": { difficulty: diceCodes["setback"] + diceCodes["setback"], costMod: 0.25 },
+            "advanced": { difficulty: diceCodes["difficulty"], costMod: 0.25 },
+            "masterwork": { difficulty: diceCodes["difficulty"] + diceCodes["setback"], costMod: 1.00 },
         }
         const price = parseFloat(this.price)
         this.difficulty = this.difficulty.toLowerCase()
@@ -44,12 +49,12 @@ var app1 = new Vue({
         })
 
         var difficultyChars = totalDifficulty.split("")
-        for (let index = 0; index < Math.floor(this.improvements.length/3); index++) {
-            const dieIndex = difficultyChars.indexOf("d");
+        for (let index = 0; index <= Math.floor(this.improvements.length / 3); index++) {
+            const dieIndex = difficultyChars.indexOf(diceCodes["difficulty"]);
             if (dieIndex >= 0) {
-                difficultyChars[dieIndex] = "c";
+                difficultyChars[dieIndex] = diceCodes["challenge"];
             } else {
-                difficultyChars.push('d')
+                difficultyChars.push(diceCodes["difficulty"])
             }
         }
 
