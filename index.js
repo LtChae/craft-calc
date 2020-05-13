@@ -49,7 +49,7 @@ var app1 = new Vue({
         })
 
         var difficultyChars = totalDifficulty.split("")
-        for (let index = 0; index <= Math.floor(this.improvements.length / 3); index++) {
+        for (let index = 0; index < Math.floor(this.improvements.length / 3); index++) {
             const dieIndex = difficultyChars.indexOf(diceCodes["difficulty"]);
             if (dieIndex >= 0) {
                 difficultyChars[dieIndex] = diceCodes["challenge"];
