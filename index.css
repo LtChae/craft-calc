@@ -1,3 +1,12 @@
+@font-face {
+  font-family: eote;
+  src: url(./EotESymbol-Regular-PLUS.woff);
+}
+
+.symbols {
+  font-family: eote;
+}
+
 .btn {
   margin-right: 5px
 }

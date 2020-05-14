@@ -1,7 +1,7 @@
 tables = {
   melee: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Two-Handed",
           value: ""
@@ -17,7 +17,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Defensive Quality",
           value: ""
@@ -41,7 +41,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Ensnare Quality",
           value: ""
@@ -57,7 +57,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Accurate Quality",
           value: ""
@@ -73,7 +73,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "xx", type: "masterwork", effects: [
         {
           name: "Concussive Quality",
           value: ""
@@ -87,7 +87,7 @@ tables = {
   ],
   ranged: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Ion Quality",
           value: ""
@@ -107,7 +107,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Customizable",
           value: ""
@@ -131,7 +131,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Destructive",
           value: ""
@@ -151,7 +151,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Auto-Fire Quality",
           value: ""
@@ -171,7 +171,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "xx", type: "masterwork", effects: [
         {
           name: "Blast Quality",
           value: ""
@@ -189,7 +189,7 @@ tables = {
   ],
   gadget: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Lightweight",
           value: ""
@@ -197,7 +197,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Compact",
           value: ""
@@ -205,7 +205,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Safety Features",
           value: ""
@@ -213,7 +213,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Inbuilt Weapon",
           value: ""
@@ -221,7 +221,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "xx", type: "masterwork", effects: [
         {
           name: "Supreme Craftsmanship",
           value: ""
@@ -231,7 +231,7 @@ tables = {
   ],
   cybernetic: [
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Integrated Tool",
           value: ""
@@ -243,7 +243,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Tailored",
           value: ""
@@ -251,7 +251,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Inbuilt Weapon",
           value: ""
@@ -259,7 +259,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "xx", type: "masterwork", effects: [
         {
           name: "Ion Shielded",
           value: ""
@@ -269,7 +269,7 @@ tables = {
   ],
   lightsaber: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Lightweight",
           value: ""
@@ -281,7 +281,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Disguised",
           value: ""
@@ -293,7 +293,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Crossguard",
           value: ""
@@ -313,7 +313,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Inbuilt",
           value: ""
@@ -325,7 +325,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI", type: "advanced", effects: [
+      symbols: "x", type: "advanced", effects: [
         {
           name: "Fine-Tuned Emitter",
           value: ""
@@ -337,7 +337,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "xx", type: "masterwork", effects: [
         {
           name: "Integral Attachment",
           value: ""
@@ -347,7 +347,7 @@ tables = {
   ],
   armor: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Lightweight",
           value: ""
@@ -359,7 +359,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Extra Melee Defense",
           value: ""
@@ -371,7 +371,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Extra Ranged Defense",
           value: ""
@@ -383,7 +383,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Extra Soak",
           value: ""
@@ -391,7 +391,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "xx", type: "masterwork", effects: [
         {
           name: "Integral Attachment",
           value: ""
@@ -401,7 +401,7 @@ tables = {
   ],
   chassis: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Reinforced Chassis",
           value: ""
@@ -413,7 +413,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Deflective Carapace",
           value: ""
@@ -425,7 +425,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Armor Plating",
           value: ""
@@ -447,7 +447,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Superior Hardware",
           value: ""
@@ -457,7 +457,7 @@ tables = {
   ],
   programming: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Random Positive Quirk",
           value: ""
@@ -469,7 +469,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Adaptive Programming",
           value: ""
@@ -485,7 +485,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Defensive Programming",
           value: ""
@@ -509,7 +509,7 @@ tables = {
   ],
   potion: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Fortifying",
           value: ""
@@ -525,7 +525,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Long-lasting",
           value: ""
@@ -533,7 +533,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Extra Potency",
           value: ""
@@ -541,7 +541,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Virulent",
           value: ""
@@ -549,7 +549,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "xx", type: "masterwork", effects: [
         {
           name: "Empowered",
           value: ""
@@ -559,7 +559,7 @@ tables = {
   ],
   talisman: [
     {
-      symbols: "ADV", type: "simple", effects: [
+      symbols: "a", type: "simple", effects: [
         {
           name: "Draining",
           value: ""
@@ -571,7 +571,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV", type: "simple", effects: [
+      symbols: "aa", type: "simple", effects: [
         {
           name: "Growing Power",
           value: ""
@@ -583,7 +583,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV", type: "intermediate", effects: [
+      symbols: "aaa", type: "intermediate", effects: [
         {
           name: "Additional Power",
           value: ""
@@ -591,7 +591,7 @@ tables = {
       ]
     },
     {
-      symbols: "ADV ADV ADV ADV", type: "advanced", effects: [
+      symbols: "aaaa", type: "advanced", effects: [
         {
           name: "Redirect Energy",
           value: ""
@@ -599,7 +599,7 @@ tables = {
       ]
     },
     {
-      symbols: "TRI TRI", type: "masterwork", effects: [
+      symbols: "xx", type: "masterwork", effects: [
         {
           name: "Empowered",
           value: ""

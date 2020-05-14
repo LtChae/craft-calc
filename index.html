@@ -10,7 +10,7 @@
 <body>
     <div id="craft-app" class="container">
         <div class="columns">
-            <div class="column col-xs-12 col-lg-4">
+            <div class="column col-xs-12 col-md-4">
                 <div class="form-group">
                     <label class="form-label" for="price">Price</label>
                     <input class="form-input" name="price" type="number" v-model="price" placeholder="cost in credits">
@@ -52,7 +52,9 @@
                         <th>Effect</th>
                     </tr>
                     <tr v-for="row in rows">
-                        <td>{{row.type.charAt(0).toUpperCase() + row.type.slice(1)}}</td>
+                        <td>{{row.type.charAt(0).toUpperCase() + row.type.slice(1)}}<span class="symbols">
+                                {{row.symbols}}</span>
+                        </td>
                         <td>
                             <ul>
                                 <li v-for="effect in row.effects"><button
